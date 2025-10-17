@@ -19,7 +19,7 @@ export function Header() {
                     {/* Logo */}
                     <div className="flex items-center">
                         <h1 className="text-3xl text-[#C5A572]" style={{ fontFamily: "'Playfair Display', serif" }}>
-                            Aurelia
+                            EcoGold
                         </h1>
                     </div>
 

@@ -9,7 +9,7 @@ export function Footer() {
                             className="text-2xl text-[#C5A572]"
                             style={{ fontFamily: "'Playfair Display', serif" }}
                         >
-                            Aurelia
+                            EcoGold
                         </h3>
                     </div>
 
@@ -29,7 +29,7 @@ export function Footer() {
 
                 {/* Copyright */}
                 <div className="text-center mt-8 text-white/40">
-                    <p>© 2025 Aurelia. Todos os direitos reservados.</p>
+                    <p>© 2025 EcoGold. Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>
