@@ -1,7 +1,17 @@
 "use client";
 
 import * as React from "react";
-import * as RechartsPrimitive from "recharts@2.15.2";
+
+import * as RechartsPrimitive from "recharts";
+
+import type {
+  TooltipProps,
+  LegendProps,
+  LegendPayload,
+} from "recharts";
+type RV = number | string | Array<number | string>;
+type RN = string;
+type CustomTooltipProps = TooltipProps<RV, RN>;
 
 import { cn } from "./utils";
 
@@ -179,7 +189,7 @@ function ChartTooltipContent({
     >
       {!nestLabel ? tooltipLabel : null}
       <div className="grid gap-1.5">
-        {payload.map((item, index) => {
+        {(payload as Array<any>).map((item: any, index: number) => {
           const key = `${nameKey || item.name || item.dataKey || "value"}`;
           const itemConfig = getPayloadConfigFromPayload(config, item, key);
           const indicatorColor = color || item.payload.fill || item.color;

@@ -4,11 +4,10 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 interface ProductCardProps {
     name: string;
     description: string;
-    price?: string;
     image: string;
 }
 
-export function ProductCard({ name, description, price, image }: ProductCardProps) {
+export function ProductCard({ name, description, image }: ProductCardProps) {
     const whatsappMessage = `Olá!%20Tenho%20interesse%20na%20joia%20${encodeURIComponent(name)}.`;
 
     return (
@@ -34,11 +33,6 @@ export function ProductCard({ name, description, price, image }: ProductCardProp
                 <p className="text-[#717182] mb-4 min-h-[3rem]">
                     {description}
                 </p>
-                {price && (
-                    <p className="text-xl text-[#C5A572] mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
-                        {price}
-                    </p>
-                )}
                 <a
                     href={`https://wa.me/5531999999894?text=${whatsappMessage}`}
                     target="_blank"
