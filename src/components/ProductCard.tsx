@@ -46,7 +46,7 @@ export function ProductCard({ name, description, price, image }: ProductCardProp
                     className="flex items-center justify-center gap-2 w-full bg-[#25D366] text-white px-6 py-3 rounded-full hover:bg-[#20BA5A] transition-all transform hover:scale-105"
                 >
                     <MessageCircle size={20} />
-                    <span>Comprar pelo WhatsApp</span>
+                    <span>Venda sua joia</span>
                 </a>
             </div>
         </div>

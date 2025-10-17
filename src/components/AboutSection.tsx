@@ -11,10 +11,10 @@ export function AboutSection() {
                             className="text-4xl md:text-5xl text-[#1A1A1A] mb-6"
                             style={{ fontFamily: "'Playfair Display', serif" }}
                         >
-                            Sobre a Aurelia
+                            Sobre a EcoGold
                         </h2>
                         <p className="text-lg text-[#717182] mb-6 leading-relaxed">
-                            Na Aurelia, acreditamos que cada joia conta uma história única.
+                            Na EcoGold, acreditamos que cada joia conta uma história única.
                             Nossa paixão é criar peças exclusivas que celebram momentos especiais
                             e expressam a individualidade de quem as usa.
                         </p>

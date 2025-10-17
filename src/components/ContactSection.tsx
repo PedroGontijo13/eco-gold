@@ -50,7 +50,7 @@ export function ContactSection() {
 
                 {/* Contact Info */}
                 <div className="text-white/60 space-y-2">
-                    <p>contato@aurelia.com.br</p>
+                    <p>contato@EcoGold.com.br</p>
                     <p>(31) 99999-9894</p>
                 </div>
             </div>
